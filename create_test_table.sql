@@ -14,7 +14,7 @@ BEGIN
     FOR i in 1..10000000
     LOOP
         insert into test_table (X, Y, COLOUR, FRUIT)
-        values (round(dbms_random.value()*100), round(dbms_random.value()*10000), CASE round(dbms_random.value(1,4)) 
+        values (round(dbms_random.value()*10000000), round(dbms_random.value()*1000000), CASE round(dbms_random.value(1,4)) 
             WHEN 1 THEN 'Red' 
             WHEN 2 THEN 'Blue' 
             WHEN 3 THEN 'Green' 
