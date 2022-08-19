@@ -2534,12 +2534,12 @@ INSERT INTO employees VALUES
         );
 
 INSERT INTO employees VALUES 
-        ( 199
+        ( 99
         , 'Douglas'
         , 'Grant'
         , 'DGRANT'
         , '650.507.9844'
-        , TO_DATE('13-01-2008', 'dd-MM-yyyy')
+        , '2008-01-13'
         , 'SH_CLERK'
         , 2600
         , NULL
